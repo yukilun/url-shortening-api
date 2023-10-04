@@ -25,6 +25,7 @@ const isEmpty = ref(false);
 const errorMsg = ref('');
 
 function handleInput() {
+    errorMsg.value = '';
     isEmpty.value = inputUrl.value == ''; 
 }
 async function handleSubmit(e) {
