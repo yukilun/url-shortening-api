@@ -5,7 +5,7 @@
                 <h3 class="text-very-dark-blue font-bold text-2xl md:text-3xl mb-4">Advanced Statistics</h3>
                 <h4 class="text-grayish-violet md:text-lg leading-[1.85]">Track how your links are performing across the web with our advanced statistics dashboard.</h4>
             </div>
-            <div class="flex flex-col md:flex-row gap-12 md:gap-8 relative" data-aos="fade-up" data-aos-duration="800">
+            <div class="flex flex-col md:flex-row gap-12 md:gap-8 relative">
                 <StatisticsCard :item="statItems.brandRegconition.item" :description="statItems.brandRegconition.description">
                     <IconBrandRecognition />
                 </StatisticsCard>

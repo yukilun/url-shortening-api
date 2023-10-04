@@ -9,17 +9,17 @@
                     <p class="font-bold text-white mb-3">{{ key }}</p>
                     <ul>
                         <li v-for="link in footerLinks[key]" :key="link.name" class="mb-2">
-                            <a :href="link.link" class="transition-all duration-300 hover:text-cyan">
+                            <a :href="link.link" :aria-label="link.name" class="transition-all duration-300 hover:text-cyan">
                                 {{ link.name }}
                             </a>
                         </li>
                     </ul>
                 </div>
                 <ul class="flex gap-5">
-                    <li><a href="#" class="group"><IconFacebook /></a></li>
-                    <li><a href="#" class="group"><IconTwitter /></a></li>
-                    <li><a href="#" class="group"><IconPinterest /></a></li>
-                    <li><a href="#" class="group"><IconInstagram /></a></li>
+                    <li><a href="#" class="group" aria-label="Facebook"><IconFacebook /></a></li>
+                    <li><a href="#" class="group" aria-label="Twitter"><IconTwitter /></a></li>
+                    <li><a href="#" class="group" aria-label="Pinterest"><IconPinterest /></a></li>
+                    <li><a href="#" class="group" aria-label="Instagram"><IconInstagram /></a></li>
                 </ul>
             </div>
         </div>

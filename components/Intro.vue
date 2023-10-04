@@ -8,7 +8,7 @@
             <h2 class="text-grayish-violet text-lg md:text-xl !leading-[1.8] mb-8 lg:mb-12">
                 Build your brand’s recognition and get detailed insights on how your links are performing.
             </h2>
-            <a href="#" class="inline-block text-white bg-cyan text-lg md:text-xl font-bold rounded-full py-3 px-9 transition-all duration-300 hover:opacity-50">
+            <a href="#" aria-label="Get Started" class="inline-block text-white bg-cyan text-lg md:text-xl font-bold rounded-full py-3 px-9 transition-all duration-300 hover:opacity-50">
                 Get Started
             </a>
         </div>
