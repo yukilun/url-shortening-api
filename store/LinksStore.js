@@ -19,5 +19,12 @@ export const useLinksStore = defineStore('links', () => {
         links.push([url, token]);
     }
 
-    return { links, addLink };
+    function removeAllLinks() {
+        links.forEach((link) => {
+            localStorage.removeItem(link[0]);
+        })
+        links.splice(0)
+    }
+
+    return { links, addLink, removeAllLinks };
 })

@@ -7,6 +7,11 @@
             <ShortenForm />
         </div>
         <ShortenLink v-for="link, idx in linksStore.links" :key="idx" :link="link" />
+        <button v-if="linksStore.links.length > 0" type="button" @click="linksStore.removeAllLinks"
+            class="mx-auto mt-2 text-white bg-red px-6 py-3 rounded-lg font-bold md:text-lg 
+            transition-all duration-300 hover:opacity-50">
+            Clear All
+        </button>
     </section>
 </template>
 
