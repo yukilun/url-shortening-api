@@ -45,6 +45,7 @@ Users should be able to:
 - [Tailwind CSS](https://tailwindcss.com/) - CSS Framework
 - [Mongoose](https://mongoosejs.com/) - Object Data Modeling (ODM) library for MongoDB
 - [MongoDB](https://www.mongodb.com/) - NoSQL database
+- [AOS](https://michalsnik.github.io/aos/) - Animate On Scroll Library
 
 ### What I learned
 
