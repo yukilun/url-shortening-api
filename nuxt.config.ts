@@ -8,9 +8,6 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@pinia/nuxt',
   ],
-  plugins: [
-    { src: '~/plugins/aos', mode: 'client' },
-  ],
   app: {
     head: {
       htmlAttrs: {
