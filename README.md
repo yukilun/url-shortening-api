@@ -1,75 +1,60 @@
-# Nuxt 3 Minimal Starter
+# Frontend Mentor - Shortly URL shortening API Challenge solution
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is a solution to the [Shortly URL shortening API Challenge challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Setup
+## Table of contents
 
-Make sure to install the dependencies:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
 
-```bash
-# npm
-npm install
+## Overview
 
-# pnpm
-pnpm install
+### The challenge
 
-# yarn
-yarn install
+Users should be able to:
 
-# bun
-bun install
-```
+- View the optimal layout for the site depending on their device's screen size
+- Shorten any valid URL
+- See a list of their shortened links, even after refreshing the browser
+- Copy the shortened link to their clipboard in a single click
+- Receive an error message when the `form` is submitted if:
+  - The `input` field is empty
 
-## Development Server
+### Screenshot
 
-Start the development server on `http://localhost:3000`:
+![](./screenshot-desktop-1.png)
 
-```bash
-# npm
-npm run dev
+### Links
 
-# pnpm
-pnpm run dev
+- Solution URL: [https://github.com/yukilun/url-shortening-api](https://github.com/yukilun/url-shortening-api)
+- Live Site URL: [https://yukiurl.netlify.app/](https://yukiurl.netlify.app/)
 
-# yarn
-yarn dev
+## My process
 
-# bun
-bun run dev
-```
+### Built with
 
-## Production
+- [Vue.js](https://vuejs.org/) - JS library
+- [Nuxt.js](https://nuxt.com/) - Vue.js framework
+- [Pinia](https://pinia.vuejs.org/) - State management library for Vue.js 
+- [Tailwind CSS](https://tailwindcss.com/) - CSS Framework
+- [Mongoose](https://mongoosejs.com/) - Object Data Modeling (ODM) library for MongoDB
+- [MongoDB](https://www.mongodb.com/) - NoSQL database
 
-Build the application for production:
+### What I learned
 
-```bash
-# npm
-npm run build
+- Transformed existing responsive web design into code
+- Utilized Vue + Nuxt to build SSR application (Frontend)
+- Built a simple REST API for URL shortening with Nuxt/Nitro (Backend)
+- Used Mongoose to create schema, connect with MongoDB and perform CRUD operations 
+- Utilized Pinia for state management
 
-# pnpm
-pnpm run build
+## Author
 
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- Website - [Yuki Lun](https://www.yukilun.com)
+- Frontend Mentor - [@yukilun](https://www.frontendmentor.io/profile/yukilun)
