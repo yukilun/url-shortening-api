@@ -6,7 +6,7 @@ export default defineEventHandler(async(event) => {
     if(!URL.canParse(url)) {
         throw createError({
             statusCode: 400,
-            statusMessage: 'The given URL is invalid!',
+            statusMessage: 'Invalid URL',
         });
     }
 
@@ -14,7 +14,7 @@ export default defineEventHandler(async(event) => {
     if(url.protocol !== 'https:' && url.protocol !== 'http:') {
         throw createError({
             statusCode: 400,
-            statusMessage: 'The protocol scheme of the URL must be "https:" or "http:"!',
+            statusMessage: 'The URL protocol must be https or http',
         });        
     }
 
