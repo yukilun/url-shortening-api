@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        @apply w-screen overflow-x-hidden;
+    }
+    body {
+        @apply w-screen overflow-x-hidden;
+    }
+}
+
+@layer utilities {
+    .text-wrap-balance {
+        text-wrap: balance
+    }
+}
