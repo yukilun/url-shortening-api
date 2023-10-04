@@ -13,13 +13,10 @@ export const useLinksStore = defineStore('links', () => {
 
     function addLink(url, token) {
         let foundIdx = links.findIndex(link => link[0] == url);
-        if(foundIdx > -1) {
-            links.push(links.splice(foundIdx, 1));
-        }
-        else {
+        if(foundIdx == -1) {
             localStorage.setItem(url, token);
-            links.push([url, token]);
         }
+        links.push([url, token]);
     }
 
     return { links, addLink };
